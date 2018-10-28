@@ -1,0 +1,58 @@
+.routine_section {
+    border: 1px solid #ddd;
+    box-shadow: 10px 10px 15px #ddd;
+    width: 60%;
+}
+
+.btn_submit {
+    text-align: center;
+    margin: 0 auto;
+    padding: 12px 24px 12px 24px;
+    font-weight: bold;
+    font-size: 16px;
+    /* margin: 0; */
+    float: right;
+    margin-right: 4%;
+    margin-bottom: 6%;
+}
+
+.routine_section select {
+    width: 30%;
+}
+
+.routine_section option {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 8px;
+}
+
+.routine_section input {
+    width: 30%;
+    background-color: #ddd;
+}
+
+.routine_section input:hover {
+    width: 30%;
+    background-color: #fff;
+}
+
+.form-group label {
+    text-align: right;
+}
+
+.course_name,
+.course_of_day,
+.class_time,
+.term_details,
+.duration,
+.course_selection,
+.teacher_selection {
+    margin-left: 17%;
+}
+
+.routine_section h2 {
+    border-bottom: 3px solid #999;
+    box-shadow: 7px 5px 4px #1e300a;
+    color: lightsteelblue;
+    margin-bottom: 24px;
+}

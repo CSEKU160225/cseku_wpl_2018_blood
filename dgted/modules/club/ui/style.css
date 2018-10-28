@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+#form
+{
+	width:500px;
+	
+	margin:0px auto;
+	text-align:center;
+	
+}
+#form form input
+{
+	width:100%;
+	height:35px;
+}
+form button
+{
+	width:50%;
+	height:35px;
+}
+table,td
+{
+	border:solid #e9e9e9 1px;
+}
+

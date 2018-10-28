@@ -1,0 +1,6 @@
+login_member_login=সদস্য লগইন
+login_email=ই-মেইল
+login_password=পাসওয়ার্ড
+login_enter_email=ইমেইল প্রদান করুন
+login_enter_password=পাসওয়ার্ড লিখুন
+login_submit=লগইন

@@ -1,0 +1,972 @@
+<Menus>
+
+<!-- Administration -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Administration</Title>
+		<Permissions>
+			<Permission>USER_C</Permission>
+			<Permission>USER_U</Permission>
+			<Permission>USER_D</Permission>				
+			<Permission>ROLE_C</Permission>
+			<Permission>ROLE_U</Permission>
+			<Permission>ROLE_D</Permission>	
+			<Permission>PERMISSION_C</Permission>
+			<Permission>PERMISSION_U</Permission>
+			<Permission>PERMISSION_D</Permission>
+			<Permission>DISCIPLINE_C</Permission>
+			<Permission>DISCIPLINE_U</Permission>
+			<Permission>DISCIPLINE_D</Permission>
+			<Permission>SCHOOL_C</Permission>
+			<Permission>SCHOOL_U</Permission>
+			<Permission>SCHOOL_D</Permission>
+			<Permission>POSITION_C</Permission>
+			<Permission>POSITION_U</Permission>
+			<Permission>POSITION_D</Permission>						
+		</Permissions>			
+	</Menu>
+
+		<Menu>
+			<ParentMenu>Administration</ParentMenu>
+			<Title>Role Related</Title>
+			<Permissions>
+				<Permission>ROLE_C</Permission>
+				<Permission>ROLE_U</Permission>
+				<Permission>ROLE_D</Permission>	
+				<Permission>PERMISSION_C</Permission>
+				<Permission>PERMISSION_U</Permission>
+				<Permission>PERMISSION_D</Permission>															
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>Role Related</ParentMenu>
+				<Title>Manage Role</Title>
+				<Link>role.php</Link>
+				<Permissions>
+					<Permission>ROLE_C</Permission>
+					<Permission>ROLE_U</Permission>
+					<Permission>ROLE_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Role Related</ParentMenu>
+				<Title>Manage Permission</Title>
+				<Link>permission.php</Link>
+				<Permissions>
+					<Permission>PERMISSION_C</Permission>
+					<Permission>PERMISSION_U</Permission>
+					<Permission>PERMISSION_D</Permission>
+				</Permissions>
+			</Menu>
+
+		<Menu>
+			<ParentMenu>Administration</ParentMenu>
+			<Title>Setup Related</Title>
+			<Permissions>
+				<Permission>USER_C</Permission>
+				<Permission>USER_U</Permission>
+				<Permission>USER_D</Permission>	
+				<Permission>DISCIPLINE_C</Permission>
+				<Permission>DISCIPLINE_U</Permission>
+				<Permission>DISCIPLINE_D</Permission>
+				<Permission>SCHOOL_C</Permission>
+				<Permission>SCHOOL_U</Permission>
+				<Permission>SCHOOL_D</Permission>
+				<Permission>POSITION_C</Permission>
+				<Permission>POSITION_U</Permission>
+				<Permission>POSITION_D</Permission>
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage User</Title>
+				<Link>user.php</Link>
+				<Permissions>
+					<Permission>USER_C</Permission>
+					<Permission>USER_U</Permission>
+					<Permission>USER_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage Discipline</Title>
+				<Link>discipline.php</Link>
+				<Permissions>
+					<Permission>DISCIPLINE_C</Permission>
+					<Permission>DISCIPLINE_U</Permission>
+					<Permission>DISCIPLINE_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage School</Title>
+				<Link>school.php</Link>
+				<Permissions>
+					<Permission>SCHOOL_C</Permission>
+					<Permission>SCHOOL_U</Permission>
+					<Permission>SCHOOL_D</Permission>
+				</Permissions>
+			</Menu>			
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage Position</Title>
+				<Link>position.php</Link>
+				<Permissions>
+					<Permission>POSITION_C</Permission>
+					<Permission>POSITION_U</Permission>
+					<Permission>POSITION_D</Permission>
+				</Permissions>
+			</Menu>
+
+<!-- User -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>User</Title>
+		<Permissions>
+			<Permission>USER_C</Permission>
+			<Permission>USER_R</Permission>	
+			<Permission>USER_U</Permission>	
+			<Permission>USER_D</Permission>	
+		</Permissions>			
+	</Menu>
+
+		<Menu>
+			<ParentMenu>User</ParentMenu>
+			<Title>User Related</Title>
+			<Permissions>
+				<Permission>USER_C</Permission>
+				<Permission>USER_R</Permission>	
+				<Permission>USER_U</Permission>	
+				<Permission>USER_D</Permission>														
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>Home</Title>
+				<Link>home.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>User Details</Title>
+				<Link>user_details.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>Forgot Password</Title>
+				<Link>forgot_password.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>Search User</Title>
+				<Link>user_search.php</Link>
+				<Permissions>
+					<Permission>USER_C</Permission>
+					<Permission>USER_U</Permission>
+					<Permission>USER_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>Logout</Title>
+				<Link>logout.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+<!-- Registration -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Academic</Title>
+		<Permissions>
+			<Permission>COURSE_C</Permission>
+			<Permission>COURSE_R</Permission>
+			<Permission>COURSE_U</Permission>
+			<Permission>COURSE_D</Permission>												
+			<Permission>COURSE_TYPE_C</Permission>
+			<Permission>COURSE_TYPE_R</Permission>
+			<Permission>COURSE_TYPE_U</Permission>
+			<Permission>COURSE_TYPE_D</Permission>				
+			<Permission>COURSE_SESSIONAL_TYPE_C</Permission>
+			<Permission>COURSE_SESSIONAL_TYPE_R</Permission>
+			<Permission>COURSE_SESSIONAL_TYPE_U</Permission>
+			<Permission>COURSE_SESSIONAL_TYPE_D</Permission>
+			<Permission>USER_C</Permission>
+			<Permission>USER_R</Permission>
+			<Permission>USER_U</Permission>
+			<Permission>USER_D</Permission>								
+			<Permission>REGISTRATION_C</Permission>
+			<Permission>REGISTRATION_R</Permission>
+			<Permission>REGISTRATION_U</Permission>
+			<Permission>REGISTRATION_D</Permission>		
+			<Permission>TERM_C</Permission>
+			<Permission>TERM_R</Permission>
+			<Permission>TERM_U</Permission>
+			<Permission>TERM_D</Permission>	
+			<Permission>YEAR_C</Permission>
+			<Permission>YEAR_R</Permission>			
+			<Permission>YEAR_U</Permission>
+			<Permission>YEAR_D</Permission>		
+			<Permission>SESSION_C</Permission>
+			<Permission>SESSION_R</Permission>
+			<Permission>SESSION_U</Permission>
+			<Permission>SESSION_D</Permission>									
+			<Permission>RESULT_C</Permission>
+			<Permission>RESULT_R</Permission>
+			<Permission>RESULT_U</Permission>												
+			<Permission>RESULT_D</Permission>
+		</Permissions>			
+	</Menu>
+
+		<Menu>
+			<ParentMenu>Academic</ParentMenu>
+			<Title>Course Related</Title>
+			<Permissions>
+				<Permission>COURSE_C</Permission>
+				<Permission>COURSE_R</Permission>
+				<Permission>COURSE_U</Permission>
+				<Permission>COURSE_D</Permission>												
+				<Permission>COURSE_TYPE_C</Permission>
+				<Permission>COURSE_TYPE_U</Permission>
+				<Permission>COURSE_TYPE_D</Permission>				
+				<Permission>COURSE_SESSIONAL_TYPE_C</Permission>
+				<Permission>COURSE_SESSIONAL_TYPE_U</Permission>
+				<Permission>COURSE_SESSIONAL_TYPE_D</Permission>									
+				<Permission>SESSION_C</Permission>
+				<Permission>SESSION_U</Permission>
+				<Permission>SESSION_D</Permission>			
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>Course Related</ParentMenu>
+				<Title>Manage Course</Title>
+				<Link>course.php</Link>
+				<Permissions>
+					<Permission>COURSE_C</Permission>
+					<Permission>COURSE_U</Permission>
+					<Permission>COURSE_D</Permission>				
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Course Related</ParentMenu>
+				<Title>Manage Course Type</Title>
+				<Link>course_type.php</Link>
+				<Permissions>
+					<Permission>COURSE_TYPE_C</Permission>
+					<Permission>COURSE_TYPE_U</Permission>
+					<Permission>COURSE_TYPE_D</Permission>				
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Course Related</ParentMenu>
+				<Title>Manage Sessional Type</Title>
+				<Link>course_sessional_type.php</Link>
+				<Permissions>
+					<Permission>COURSE_SESSIONAL_TYPE_C</Permission>
+					<Permission>COURSE_SESSIONAL_TYPE_U</Permission>
+					<Permission>COURSE_SESSIONAL_TYPE_D</Permission>				
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Course Related</ParentMenu>
+				<Title>Manage Session</Title>
+				<Link>registration_session.php</Link>
+				<Permissions>
+					<Permission>SESSION_C</Permission>
+					<Permission>SESSION_U</Permission>
+					<Permission>SESSION_D</Permission>				
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Course Related</ParentMenu>
+				<Title>Assign Teacher to Course</Title>
+				<Link>course_teacher.php</Link>
+				<Permissions>
+					<Permission>COURSE_C</Permission>
+					<Permission>COURSE_U</Permission>
+					<Permission>COURSE_D</Permission>				
+				</Permissions>
+			</Menu>			
+			<Menu>
+				<ParentMenu>Course Related</ParentMenu>
+				<Title>My Courses</Title>
+				<Link>my_courses.php</Link>
+				<Permissions>
+					<Permission>COURSE_C</Permission>
+					<Permission>COURSE_R</Permission>
+					<Permission>COURSE_U</Permission>
+					<Permission>COURSE_D</Permission>				
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Course Related</ParentMenu>
+				<Title>Tests Entry</Title>
+				<Link>tests_entry.php</Link>
+				<Permissions>
+					<Permission>COURSE_R</Permission>
+					<Permission>COURSE_C</Permission>
+					<Permission>COURSE_U</Permission>
+					<Permission>COURSE_D</Permission>				
+				</Permissions>
+			</Menu>				
+		<Menu>
+			<ParentMenu>Academic</ParentMenu>
+			<Title>Registration Related</Title>
+			<Permissions>											
+				<Permission>USER_C</Permission>
+				<Permission>USER_U</Permission>
+				<Permission>USER_D</Permission>								
+				<Permission>REGISTRATION_C</Permission>
+				<Permission>REGISTRATION_R</Permission>
+				<Permission>REGISTRATION_U</Permission>
+				<Permission>REGISTRATION_D</Permission>		
+				<Permission>TERM_C</Permission>
+				<Permission>TERM_U</Permission>
+				<Permission>TERM_D</Permission>	
+				<Permission>YEAR_C</Permission>
+				<Permission>YEAR_U</Permission>
+				<Permission>YEAR_D</Permission>							
+				<Permission>RESULT_C</Permission>
+				<Permission>RESULT_R</Permission>
+				<Permission>RESULT_U</Permission>												
+				<Permission>RESULT_D</Permission>
+				<Permission>GRADE_SETUP_C</Permission>
+				<Permission>GRADE_SETUP_U</Permission>												
+				<Permission>GRADE_SETUP_D</Permission>			
+				<Permission>MARKS_SETUP_C</Permission>
+				<Permission>MARKS_SETUP_U</Permission>												
+				<Permission>MARKS_SETUP_D</Permission>			
+				<Permission>ATTENDANCE_C</Permission>
+				<Permission>ATTENDANCE_U</Permission>												
+				<Permission>ATTENDANCE_D</Permission>			
+			</Permissions>
+		</Menu>	
+
+
+			<Menu>
+				<ParentMenu>Registration Related</ParentMenu>
+				<Title>Search Coursewise Registration</Title>
+				<Link>coursewise_registration.php</Link>
+				<Permissions>
+					<Permission>REGISTRATION_C</Permission>
+					<Permission>REGISTRATION_U</Permission>
+					<Permission>REGISTRATION_D</Permission>												
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Registration Related</ParentMenu>
+				<Title>Search Studentwise Registration</Title>
+				<Link>studentwise_registration.php</Link>
+				<Permissions>
+					<Permission>REGISTRATION_C</Permission>
+					<Permission>REGISTRATION_U</Permission>
+					<Permission>REGISTRATION_D</Permission>												
+				</Permissions>
+			</Menu>
+
+
+			<Menu>
+				<ParentMenu>Registration Related</ParentMenu>
+				<Title>Student Course Registration</Title>
+				<Link>course_student_registration.php</Link>
+				<Permissions>
+					<Permission>REGISTRATION_C</Permission>
+					<Permission>REGISTRATION_R</Permission>
+					<Permission>REGISTRATION_U</Permission>
+					<Permission>REGISTRATION_D</Permission>												
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Registration Related</ParentMenu>
+				<Title>Manage Registration Requests</Title>
+				<Link>manage_registration_request.php</Link>
+				<Permissions>
+					<Permission>REGISTRATION_U</Permission>
+					<Permission>REGISTRATION_D</Permission>											
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Registration Related</ParentMenu>
+				<Title>Manage Term</Title>
+				<Link>term.php</Link>
+				<Permissions>
+					<Permission>TERM_C</Permission>
+					<Permission>TERM_U</Permission>
+					<Permission>TERM_D</Permission>												
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Registration Related</ParentMenu>
+				<Title>Manage Year</Title>
+				<Link>year.php</Link>
+				<Permissions>
+					<Permission>YEAR_C</Permission>
+					<Permission>YEAR_U</Permission>
+					<Permission>YEAR_D</Permission>												
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Registration Related</ParentMenu>
+				<Title>Assign Teacher for Registration</Title>
+				<Link>course_teacher_registration.php</Link>
+				<Permissions>
+					<Permission>YEAR_C</Permission>
+					<Permission>YEAR_U</Permission>
+					<Permission>YEAR_D</Permission>												
+				</Permissions>
+			</Menu>
+
+<!-- Result -->
+
+		<Menu>
+			<ParentMenu>Academic</ParentMenu>
+			<Title>Result Related</Title>
+			<Permissions>
+				<Permission>RESULT_C</Permission>
+				<Permission>RESULT_R</Permission>
+				<Permission>RESULT_U</Permission>												
+				<Permission>RESULT_D</Permission>
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>Result Related</ParentMenu>
+				<Title>Grade Setup</Title>
+				<Link>grade_setup.php</Link>
+				<Permissions>
+					<Permission>GRADE_SETUP_C</Permission>
+					<Permission>GRADE_SETUP_U</Permission>												
+					<Permission>GRADE_SETUP_D</Permission>			
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Result Related</ParentMenu>
+				<Title>Marks Setup</Title>
+				<Link>marks_setup.php</Link>
+				<Permissions>
+					<Permission>MARKS_SETUP_C</Permission>
+					<Permission>MARKS_SETUP_U</Permission>												
+					<Permission>MARKS_SETUP_D</Permission>			
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Result Related</ParentMenu>
+				<Title>Student Attendance</Title>
+				<Link>student_attendance.php</Link>
+				<Permissions>
+					<Permission>ATTENDANCE_C</Permission>
+					<Permission>ATTENDANCE_U</Permission>												
+					<Permission>ATTENDANCE_D</Permission>			
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Result Related</ParentMenu>
+				<Title>Marks Entry</Title>
+				<Link>marks_entry.php</Link>
+				<Permissions>
+					<Permission>RESULT_C</Permission>
+					<Permission>RESULT_U</Permission>												
+					<Permission>RESULT_D</Permission>			
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Result Related</ParentMenu>
+				<Title>My Registration</Title>
+				<Link>my_registration.php</Link>
+				<Permissions>
+					<Permission>RESULT_R</Permission>			
+				</Permissions>
+			</Menu>
+
+
+<!-- Student Center -->
+
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Student Center</Title>
+		<Permissions>
+			<Permission>DISCUSSION_C</Permission>
+			<Permission>DISCUSSION_R</Permission>
+			<Permission>DISCUSSION_U</Permission>
+			<Permission>DISCUSSION_D</Permission>												
+			<Permission>DISCUSSION_CAT_C</Permission>
+			<Permission>DISCUSSION_CAT_R</Permission>
+			<Permission>DISCUSSION_CAT_U</Permission>
+			<Permission>DISCUSSION_CAT_D</Permission>												
+			<Permission>PROJECT_C</Permission>
+			<Permission>PROJECT_R</Permission>
+			<Permission>PROJECT_U</Permission>
+			<Permission>PROJECT_D</Permission>												
+			<Permission>QUESTION_C</Permission>
+			<Permission>QUESTION_R</Permission>
+			<Permission>QUESTION_U</Permission>
+			<Permission>QUESTION_D</Permission>	
+		</Permissions>			
+	</Menu>
+
+		<Menu>
+			<ParentMenu>Student Center</ParentMenu>
+			<Title>Discussion Topic</Title>
+			<Permissions>
+				<Permission>DISCUSSION_C</Permission>
+				<Permission>DISCUSSION_R</Permission>
+				<Permission>DISCUSSION_U</Permission>
+				<Permission>DISCUSSION_D</Permission>												
+				<Permission>DISCUSSION_CAT_C</Permission>
+				<Permission>DISCUSSION_CAT_U</Permission>
+				<Permission>DISCUSSION_CAT_D</Permission>
+			</Permissions>
+		</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Manage Discussion Category</Title>
+				<Link>discussion_category.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_CAT_C</Permission>
+					<Permission>DISCUSSION_CAT_U</Permission>
+					<Permission>DISCUSSION_CAT_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Manage Discussion</Title>
+				<Link>discussion.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Search Discussion</Title>
+				<Link>discussion_search.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Answered Discussion</Title>
+				<Link>discussion_answered.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Unanswered Discussion</Title>
+				<Link>discussion_unanswered.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Recent Discussion</Title>
+				<Link>discussion_recent.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Discussion List</Title>
+				<Link>discussion_list.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+
+		<Menu>
+			<ParentMenu>Student Center</ParentMenu>
+			<Title>Survey</Title>
+			<Permissions>
+				<Permission>SURVEY_C</Permission>
+				<Permission>SURVEY_R</Permission>
+				<Permission>SURVEY_U</Permission>
+				<Permission>SURVEY_D</Permission>												
+				<Permission>SURVEY_QUESTION_C</Permission>
+				<Permission>SURVEY_QUESTION_R</Permission>
+				<Permission>SURVEY_QUESTION_U</Permission>
+				<Permission>SURVEY_QUESTION_D</Permission>	
+				<Permission>SURVEY_QUESTION_TYPE_C</Permission>	
+				<Permission>SURVEY_QUESTION_TYPE_R</Permission>	
+				<Permission>SURVEY_QUESTION_TYPE_U</Permission>	
+				<Permission>SURVEY_QUESTION_TYPE_D</Permission>	
+				<Permission>SURVEY_QUESTION_FILLUP_C</Permission>
+				<Permission>SURVEY_QUESTION_FILLUP_R</Permission>
+				<Permission>SURVEY_QUESTION_FILLUP_U</Permission>
+				<Permission>SURVEY_QUESTION_FILLUP_D</Permission>
+			</Permissions>
+		</Menu>
+			<Menu>
+				<ParentMenu>Survey</ParentMenu>
+				<Title>View All Survey</Title>
+				<Link>survey_list.php</Link>
+				<Permissions>
+					<Permission>SURVEY_R</Permission>
+				</Permissions>
+			</Menu>		
+			<Menu>
+				<ParentMenu>Survey</ParentMenu>
+				<Title>Manage Survey</Title>
+				<Link>survey.php</Link>
+				<Permissions>
+					<Permission>SURVEY_C</Permission>
+					<Permission>SURVEY_U</Permission>
+					<Permission>SURVEY_D</Permission>	
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Survey</ParentMenu>
+				<Title>Manage Survey Question</Title>
+				<Link>survey_question.php</Link>
+				<Permissions>
+					<Permission>SURVEY_QUESTION_C</Permission>
+					<Permission>SURVEY_QUESTION_U</Permission>
+					<Permission>SURVEY_QUESTION_D</Permission>	
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Survey</ParentMenu>
+				<Title>Manage Survey Question Type</Title>
+				<Link>survey_ques_type.php</Link>
+				<Permissions>
+					<Permission>SURVEY_QUESTION_TYPE_C</Permission>
+					<Permission>SURVEY_QUESTION_TYPE_U</Permission>
+					<Permission>SURVEY_QUESTION_TYPE_D</Permission>	
+				</Permissions>
+			</Menu>
+
+
+		<Menu>
+			<ParentMenu>Student Center</ParentMenu>
+			<Title>Video Tutorial</Title>
+			<Permissions>
+				<Permission>VIDEO_C</Permission>
+				<Permission>VIDEO_R</Permission>
+				<Permission>VIDEO_U</Permission>
+				<Permission>VIDEO_D</Permission>												
+			</Permissions>
+		</Menu>
+			<Menu>
+				<ParentMenu>Video Tutorial</ParentMenu>
+				<Title>Manage Video</Title>
+				<Link>video.php</Link>
+				<Permissions>
+					<Permission>VIDEO_C</Permission>
+					<Permission>VIDEO_U</Permission>
+					<Permission>VIDEO_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Video Tutorial</ParentMenu>
+				<Title>Video Search</Title>
+				<Link>video_search.php</Link>
+				<Permissions>
+					<Permission>VIDEO_R</Permission>
+				</Permissions>
+			</Menu>
+
+
+		<Menu>
+			<ParentMenu>Student Center</ParentMenu>
+			<Title>Project</Title>
+			<Permissions>
+				<Permission>PROJECT_C</Permission>
+				<Permission>PROJECT_R</Permission>
+				<Permission>PROJECT_U</Permission>
+				<Permission>PROJECT_D</Permission>												
+			</Permissions>
+		</Menu>
+			<Menu>
+				<ParentMenu>Project</ParentMenu>
+				<Title>Manage Project</Title>
+				<Link>project.php</Link>
+				<Permissions>
+					<Permission>PROJECT_C</Permission>
+					<Permission>PROJECT_U</Permission>
+					<Permission>PROJECT_D</Permission>	
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Project</ParentMenu>
+				<Title>Search Project</Title>
+				<Link>project_search.php</Link>
+				<Permissions>
+					<Permission>PROJECT_R</Permission>
+				</Permissions>
+			</Menu>
+
+
+		<Menu>
+			<ParentMenu>Student Center</ParentMenu>
+			<Title>Question</Title>
+			<Permissions>											
+				<Permission>QUESTION_C</Permission>
+				<Permission>QUESTION_R</Permission>
+				<Permission>QUESTION_U</Permission>
+				<Permission>QUESTION_D</Permission>	
+			</Permissions>
+		</Menu>
+
+			<Menu>
+				<ParentMenu>Question</ParentMenu>
+				<Title>Manage Question</Title>
+				<Link>question.php</Link>
+				<Permissions>
+					<Permission>QUESTION_C</Permission>
+					<Permission>QUESTION_U</Permission>
+					<Permission>QUESTION_D</Permission>	
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Question</ParentMenu>
+				<Title>Search Question</Title>
+				<Link>question_search.php</Link>
+				<Permissions>
+					<Permission>QUESTION_R</Permission>
+				</Permissions>
+			</Menu>
+
+
+
+		<Menu>
+			<ParentMenu>Student Center</ParentMenu>
+			<Title>Club Related</Title>
+			<Permissions>
+				<Permission>CLUB_C</Permission>
+				<Permission>CLUB_R</Permission>
+				<Permission>CLUB_U</Permission>
+				<Permission>CLUB_D</Permission>												
+			</Permissions>
+		</Menu>
+			<Menu>
+				<ParentMenu>Club Related</ParentMenu>
+				<Title>Manage Club</Title>
+				<Link>club.php</Link>
+				<Permissions>
+					<Permission>CLUB_C</Permission>
+					<Permission>CLUB_U</Permission>
+					<Permission>CLUB_D</Permission>	
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Club Related</ParentMenu>
+				<Title>Search Club</Title>
+				<Link>club_search.php</Link>
+				<Permissions>
+					<Permission>CLUB_R</Permission>
+				</Permissions>
+			</Menu>
+
+
+<!-- File -->
+
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>File Management</Title>
+		<Permissions>
+			<Permission>FILE_C</Permission>
+			<Permission>FILE_R</Permission>
+			<Permission>FILE_U</Permission>												
+			<Permission>FILE_D</Permission>
+		</Permissions>			
+	</Menu>
+
+		<Menu>
+			<ParentMenu>File Management</ParentMenu>
+			<Title>File Related</Title>
+			<Permissions>
+				<Permission>FILE_C</Permission>
+				<Permission>FILE_R</Permission>
+				<Permission>FILE_U</Permission>												
+				<Permission>FILE_D</Permission>												
+			</Permissions>
+		</Menu>
+			<Menu>
+				<ParentMenu>File Related</ParentMenu>
+				<Title>Manage Files</Title>
+				<Link>file.php</Link>
+				<Permissions>
+					<Permission>FILE_C</Permission>
+					<Permission>FILE_U</Permission>												
+					<Permission>FILE_D</Permission>	
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>File Related</ParentMenu>
+				<Title>File Notifications</Title>
+				<Link>file_notify.php</Link>
+				<Permissions>
+					<Permission>FILE_C</Permission>
+					<Permission>FILE_R</Permission>
+					<Permission>FILE_U</Permission>												
+					<Permission>FILE_D</Permission>	
+				</Permissions>
+			</Menu>			
+			<Menu>
+				<ParentMenu>File Related</ParentMenu>
+				<Title>File Status</Title>
+				<Link>file_status.php</Link>
+				<Permissions>
+					<Permission>FILE_C</Permission>
+					<Permission>FILE_R</Permission>
+					<Permission>FILE_U</Permission>												
+					<Permission>FILE_D</Permission>	
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>File Related</ParentMenu>
+				<Title>Share File</Title>
+				<Link>file_share.php</Link>
+				<Permissions>
+					<Permission>FILE_C</Permission>
+					<Permission>FILE_R</Permission>
+					<Permission>FILE_U</Permission>												
+					<Permission>FILE_D</Permission>	
+				</Permissions>
+			</Menu>
+
+<!-- Job -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Job</Title>
+		<Permissions>
+			<Permission>JOB_C</Permission>
+			<Permission>JOB_R</Permission>
+			<Permission>JOB_U</Permission>
+			<Permission>JOB_D</Permission>									
+		</Permissions>			
+	</Menu>
+
+			<Menu>
+				<ParentMenu>Job</ParentMenu>
+				<Title>Manage Job</Title>
+				<Permissions>
+					<Permission>JOB_C</Permission>
+					<Permission>JOB_U</Permission>									
+					<Permission>JOB_D</Permission>	
+					<Permission>JOB_R</Permission>
+				</Permissions>
+			</Menu>
+
+				<Menu>
+					<ParentMenu>Manage Job</ParentMenu>
+					<Title>Search Job</Title>
+					<Link>search_job.php</Link>
+					<Permissions>
+						<Permission>JOB_R</Permission>
+					</Permissions>
+				</Menu>
+<!-- Blood -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Blood</Title>
+		<Permissions>
+			<Permission>BLOOD_C</Permission>
+			<Permission>BLOOD_R</Permission>
+			<Permission>BLOOD_U</Permission>
+			<Permission>BLOOD_D</Permission>									
+		</Permissions>			
+	</Menu>
+
+			<Menu>
+				<ParentMenu>Blood</ParentMenu>
+				<Title>Manage Blood</Title>
+				<Permissions>
+					<Permission>BLOOD_C</Permission>
+					<Permission>BLOOD_U</Permission>									
+					<Permission>BLOOD_D</Permission>	
+					<Permission>BLOOD_R</Permission>
+				</Permissions>
+			</Menu>
+
+				<Menu>
+					<ParentMenu>Manage Blood</ParentMenu>
+					<Title>Blood</Title>
+					<Link>blood.php</Link>
+					<Permissions>
+						<Permission>BLOOD_C</Permission>
+						<Permission>BLOOD_R</Permission>
+						<Permission>BLOOD_U</Permission>
+						<Permission>BLOOD_D</Permission>
+					</Permissions>
+				</Menu>
+				<Menu>
+					<ParentMenu>Manage Blood</ParentMenu>
+					<Title>Blood</Title>
+					<Link>blood.php</Link>
+					<Title>Notification</Title>
+					<Link>blood_notification.php</Link>
+					<Permissions>
+						<Permission>BLOOD_C</Permission>
+						<Permission>BLOOD_R</Permission>
+						<Permission>BLOOD_U</Permission>
+						<Permission>BLOOD_D</Permission>
+					</Permissions>
+				</Menu>
+				<Menu>
+					<ParentMenu>Manage Blood</ParentMenu>
+					<Title>Blood</Title>
+					<Link>blood.php</Link>
+					<Title>Notification</Title>
+					<Link>blood_notification.php</Link>
+					<Title>Donation</Title>
+					<Link>donation.php</Link>
+					<Permissions>
+						<Permission>BLOOD_C</Permission>
+						<Permission>BLOOD_R</Permission>
+						<Permission>BLOOD_U</Permission>
+						<Permission>BLOOD_D</Permission>
+					</Permissions>
+				</Menu>
+</Menus>

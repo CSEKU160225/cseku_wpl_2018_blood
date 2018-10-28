@@ -1,0 +1,24 @@
+
+DirectoryIndex index.php
+
+RewriteEngine On
+
+##~~~~~this part for https
+RewriteCond %{HTTP_HOST} ^cse.ku.dgted\.com [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://cse.ku.dgted.com/$1 [R,L]
+
+##~~~~direct access to php not allowed
+#RewriteCond %{THE_REQUEST} ^.+?\ [^?]+\.php[?\ ]
+#RewriteRule \.php$ - [F]
+
+##~~~~direct access to other files than these are not allowed
+#RewriteCond $1 !^(index\.php|*\.jpg|*\.gif|*\.css|*\.png|*\.js)
+
+##~~~~~this part to redirect every file that is not found to the index2 page 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index2.php [QSA,L]
+
+
+Options -Indexes
